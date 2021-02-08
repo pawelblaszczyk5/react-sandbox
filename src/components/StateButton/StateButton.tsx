@@ -22,7 +22,10 @@ export const StateButton = ({
       <button onClick={increaseCount}>
         Iterate
       </button>
-      <input type="number" value={iterator} onChange={handleIteratorChange}/>
+      <label>
+        Current iterator:
+        <input type="number" value={iterator} onChange={handleIteratorChange}/>
+      </label>
       <button onClick={() => {
         setCount(initialCount);
       }}>Reset counter

@@ -10,4 +10,10 @@
   min-width: 120px;
   padding: 10px;
   border: 0;
+  border-radius: 5px;
+}
+
+.StateButton input {
+  width: 60px;
+  margin-left: 5px;
 }
