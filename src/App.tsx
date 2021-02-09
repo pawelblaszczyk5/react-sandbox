@@ -3,6 +3,7 @@ import './App.css';
 import {Header} from './components/Header/Header';
 import {StateButton} from './components/StateButton/StateButton';
 import {PropsButton} from './components/PropsButton/PropsButton';
+import {DoSomething} from './components/DoSomething/DoSomething';
 
 const App = () => {
   const [propsCount, setPropsCount] = useState(0);
@@ -18,6 +19,7 @@ const App = () => {
       </Header>
       <StateButton initialCount={5} initialIterator={3}/>
       <PropsButton value={propsCount} click={setSomething}/>
+      <DoSomething/>
     </div>
   );
 };
