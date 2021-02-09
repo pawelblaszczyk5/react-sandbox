@@ -1,0 +1,9 @@
+.narrower {
+  min-width: 60px;
+  margin: 0 5px;
+}
+
+.colorTest {
+  width: 150px;
+  height: 40px;
+}

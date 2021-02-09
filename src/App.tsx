@@ -6,6 +6,7 @@ import {PropsButton} from './components/PropsButton/PropsButton';
 import {DoSomething} from './components/DoSomething/DoSomething';
 import {ContextTesting} from './components/ContextTesting/ContextTesting';
 import {testContext} from './testContext';
+import {ReducerTesting} from './components/ReducerTesting/ReducerTesting';
 
 const App = () => {
   const [propsCount, setPropsCount] = useState(0);
@@ -26,6 +27,7 @@ const App = () => {
         <ContextTesting text="Very long and interesting text about something which should be orange"/>
       </testContext.Provider>
       <ContextTesting text="Very long and interesting text about something which should be green"/>
+      <ReducerTesting color={{r: 0, g: 0, b: 0}}/>
     </div>
   );
 };
