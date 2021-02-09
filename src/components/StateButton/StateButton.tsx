@@ -1,5 +1,4 @@
 import React, {ChangeEvent, useState} from 'react';
-import './StateButton.css';
 
 export const StateButton = ({
                               initialCount = 0,
@@ -17,7 +16,7 @@ export const StateButton = ({
   };
 
   return (
-    <div className="StateButton">
+    <div className="customFlex">
       <p>Current count is: {count}</p>
       <button onClick={increaseCount}>
         Iterate
